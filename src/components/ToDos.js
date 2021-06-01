@@ -15,8 +15,7 @@ const ToDos = (props) => {
         {" "}
         <button
           onClick={() => {
-            document.querySelector(".title").style.textDecoration =
-              "line-through";
+            props.done(toDo.id);
           }}
         >
           Done!

@@ -14,12 +14,24 @@ function App() {
     setList(newArr);
   };
 
-  const check = (itemCheck) => {
+  // const check = (itemCheck) => {
+  //   setList((prevState) => {
+  //     return prevState.filter((item) => {
+  //       if (item.id === itemCheck) item.done = !item.done;
+  //       //makes it true
+  //       return item;
+  //     });
+  //   });
+  // };
+
+  const done = (itemDone) => {
     setList((prevState) => {
       return prevState.filter((item) => {
-        if (item.id === itemCheck) item.done = !item.done;
+        if (item.id === itemDone) item.done = !item.done;
         //makes it true
-        return item;
+        return (document.querySelector(
+          ".title[id='itemDone']"
+        ).style.textDecoration = "line-through");
       });
     });
   };
@@ -30,7 +42,7 @@ function App() {
       <div className="main">
         {" "}
         <List setList={setList} />
-        <ToDo list={list} remove={remove} check={check} />
+        <ToDo list={list} remove={remove} done={done} />
       </div>
 
       <Footer />
