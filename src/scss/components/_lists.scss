@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+  @include flex-box;
+  flex-direction: column;
+  li {
+    // @include flex-box;
+    margin: 1rem;
+    font-size: 1.8rem;
+    .title {
+      text-align: center;
+    }
+  }
+}

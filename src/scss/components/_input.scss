@@ -1,0 +1,20 @@
+input {
+  font-size: 1.4rem;
+  border-radius: 3px;
+  border: none;
+  margin: 0.8rem;
+  padding: 0.5rem;
+  &:focus {
+    border: none;
+  }
+}
+.typeSomething {
+  width: 25vw;
+}
+.addSomething {
+  cursor: pointer;
+  background-color: $sg4;
+}
+.checkbox {
+  background-color: palevioletred;
+}
