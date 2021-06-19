@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cathacz/getYourShitDone.git/static/css/main.0d4cc23c.chunk.css",
+    "main.js": "/cathacz/getYourShitDone.git/static/js/main.903956ce.chunk.js",
+    "main.js.map": "/cathacz/getYourShitDone.git/static/js/main.903956ce.chunk.js.map",
+    "runtime-main.js": "/cathacz/getYourShitDone.git/static/js/runtime-main.419ffcca.js",
+    "runtime-main.js.map": "/cathacz/getYourShitDone.git/static/js/runtime-main.419ffcca.js.map",
+    "static/js/2.17fe05c5.chunk.js": "/cathacz/getYourShitDone.git/static/js/2.17fe05c5.chunk.js",
+    "static/js/2.17fe05c5.chunk.js.map": "/cathacz/getYourShitDone.git/static/js/2.17fe05c5.chunk.js.map",
+    "index.html": "/cathacz/getYourShitDone.git/index.html",
+    "static/css/main.0d4cc23c.chunk.css.map": "/cathacz/getYourShitDone.git/static/css/main.0d4cc23c.chunk.css.map",
+    "static/js/2.17fe05c5.chunk.js.LICENSE.txt": "/cathacz/getYourShitDone.git/static/js/2.17fe05c5.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/cathacz/getYourShitDone.git/static/media/Roboto-Light.0cea3982.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.419ffcca.js",
+    "static/js/2.17fe05c5.chunk.js",
+    "static/css/main.0d4cc23c.chunk.css",
+    "static/js/main.903956ce.chunk.js"
+  ]
+}
