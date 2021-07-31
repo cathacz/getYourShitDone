@@ -5,7 +5,6 @@ import List from "./components/List.js";
 import ToDo from "./components/ToDos.js";
 import Footer from "./components/Footer.js";
 
-//
 function App() {
   const [list, setList] = useState([]);
 
