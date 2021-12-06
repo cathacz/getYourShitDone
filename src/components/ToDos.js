@@ -1,9 +1,9 @@
-// const strike = (document.querySelectorAll(".title").style.textDecoration =
-//   "line-through");
+import React from "react";
 const ToDos = (props) => {
+  // const strike = (document.querySelectorAll(".title").style.textDecoration =
+  //   "line-through");
   const userToDo = props.list.map((toDo, i) => (
     <li key={i}>
-      {" "}
       {/* <input
         className="checkbox"
         type="checkbox"
@@ -12,7 +12,7 @@ const ToDos = (props) => {
       /> */}
       <div className="title"> {toDo.title}</div>
       <div className="buttons">
-        {" "}
+        {/* Done Button */}
         <button
           onClick={() => {
             props.done(toDo.id);
@@ -20,13 +20,17 @@ const ToDos = (props) => {
         >
           Done!
         </button>
+
+        {/* Later Button */}
         <button
           onClick={() => {
-            props.remove(toDo.id);
+            props.later(toDo.id);
           }}
         >
           Later...
         </button>
+
+        {/* Naaaah Button */}
         <button
           onClick={() => {
             props.remove(toDo.id);
